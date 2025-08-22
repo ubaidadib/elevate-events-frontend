@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { X, Crown, Sparkles, ChevronRight, Phone, Mail } from "lucide-react";
 
@@ -44,7 +43,7 @@ const itemVariants = {
   }
 };
 
-export default function MobileNav({ navLinks, onClose, scrolled }) {
+export default function MobileNav({ navLinks, onClose }) { 
   return (
     <>
       {/* Backdrop */}
@@ -114,7 +113,7 @@ export default function MobileNav({ navLinks, onClose, scrolled }) {
               variants={itemVariants}
               custom={index}
             >
-              <Link
+              <a // Replaced Link with a tag
                 href={link.href}
                 className="group flex items-center justify-between py-4 px-4 rounded-xl transition-all duration-300 hover:bg-gradient-to-r hover:from-gold/10 hover:to-transparent border border-transparent hover:border-gold/20"
                 onClick={onClose}
@@ -125,7 +124,7 @@ export default function MobileNav({ navLinks, onClose, scrolled }) {
                 <ChevronRight 
                   className="w-5 h-5 text-white group-hover:text-gold transition-all duration-300 transform group-hover:translate-x-1 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]" 
                 />
-              </Link>
+              </a>
             </motion.div>
           ))}
         </motion.nav>
@@ -157,7 +156,7 @@ export default function MobileNav({ navLinks, onClose, scrolled }) {
           className="p-8 space-y-4 border-t border-gold/20"
         >
           {/* VIP Access Button */}
-          <Link
+          <a // Replaced Link with a tag
             href="/membership"
             className="group relative flex items-center justify-center w-full px-6 py-4 rounded-full font-semibold uppercase tracking-[0.15em] text-sm border-2 border-gold text-white hover:border-gold-light hover:bg-gold/15 hover:text-gold transition-all duration-500 overflow-hidden bg-gold/5"
             onClick={onClose}
@@ -167,10 +166,10 @@ export default function MobileNav({ navLinks, onClose, scrolled }) {
               VIP Access
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gold/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-x-[-100%] group-hover:translate-x-[100%]" />
-          </Link>
+          </a>
 
           {/* Premium Book Now Button */}
-          <Link
+          <a // Replaced Link with a tag
             href="/booking"
             className="group relative flex items-center justify-center w-full px-6 py-4 rounded-full font-bold uppercase tracking-[0.2em] text-sm text-charcoal overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-[0_8px_32px_rgba(212,175,55,0.6)]"
             onClick={onClose}
@@ -191,7 +190,7 @@ export default function MobileNav({ navLinks, onClose, scrolled }) {
             
             {/* Shimmer effect */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-700 transform translate-x-[-100%] group-hover:translate-x-[100%] skew-x-12" />
-          </Link>
+          </a>
         </motion.div>
 
         {/* Decorative bottom accent */}

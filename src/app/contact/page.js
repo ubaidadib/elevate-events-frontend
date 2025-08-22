@@ -1,15 +1,12 @@
-
 /*
 ================================================================================
 File: /src/app/contact/page.js
 Description: The Contact Page. This is the code from the earlier immersive.
 ================================================================================
 */
-// This file contains the code from the 'elevate_events_contact_page' immersive.
-// (Code is omitted here for brevity, but you would paste it in this file)
-
 "use client";
 import React from 'react';
+// import Image from "next/image"; // Removed Next.js Image component import to resolve build error
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function App() {
@@ -60,9 +57,11 @@ export default function App() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/50 border border-[#7A4C2E]/30">
               {/* In a real application, you would embed a Google Maps iframe here */}
-              <img 
+              <img // Reverted to <img> tag to resolve "next/image" resolution error
                 src="https://placehold.co/800x500/101010/7A4C2E?text=Location+Map" 
                 alt="Map to Elevate Events" 
+                width={800} // Added width for better layout control
+                height={500} // Added height for better layout control
                 className="w-full h-full object-cover"
               />
             </div>

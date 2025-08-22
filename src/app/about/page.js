@@ -6,7 +6,7 @@ Description: Unified About Us page with the same luxury theme as Contact Page
 */
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image"; // Removed Next.js Image component import to resolve build error
 import { Users, Target, Eye } from "lucide-react";
 
 export default function AboutPage() {
@@ -31,22 +31,22 @@ export default function AboutPage() {
             </h2>
             <p className="text-[#B0B0B0] mb-4 leading-relaxed">
               Elevate Events GmbH was born from the spirit of the beloved
-              "Tribe – Music & Smoking Lounge." We honored the camaraderie
+              &quot;Tribe – Music & Smoking Lounge.&quot; We honored the camaraderie
               and soul of our predecessor while embarking on a mission to
               redefine the luxury experience.
             </p>
             <p className="text-[#B0B0B0] leading-relaxed">
-              We've blended timeless elegance with modern sophistication,
+              We&apos;ve blended timeless elegance with modern sophistication,
               ensuring that every corner of our venue tells a story of quality,
               comfort, and unparalleled style.
             </p>
           </div>
           <div className="order-1 md:order-2">
-            <Image
+            <img // Reverted to <img> tag to resolve "next/image" resolution error
               src="https://placehold.co/600x700/7A4C2E/1C1C1C?text=Our+Venue's+Soul"
               alt="Interior detail of Elevate Events"
-              width={600}
-              height={700}
+              width={600} // Added width for better layout control
+              height={700} // Added height for better layout control
               className="rounded-2xl shadow-2xl shadow-black/50 object-cover"
             />
           </div>

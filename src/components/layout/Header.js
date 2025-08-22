@@ -1,5 +1,5 @@
 "use client";
-
+import React from "react";
 import Link from "next/link";
 import { Crown, Menu, X, Sparkles, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
@@ -68,14 +68,14 @@ const Header = () => {
 
           {/* Premium Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-12 font-sans text-sm uppercase tracking-[0.25em]">
-            {navLinks.map((link, index) => (
+            {navLinks.map((link) => ( // Removed the inline comment from here
               <Link
                 key={link.name}
                 href={link.href}
                 className={`relative group transition-all duration-400 hover:scale-105 font-semibold ${
                   scrolled
-                    ? "text-white hover:text-yellow-400 drop-shadow-sm" // Adjusted hover color and reduced shadow
-                    : "text-gold hover:text-yellow-400 drop-shadow-sm" // Adjusted hover color and reduced shadow
+                    ? "text-white hover:text-yellow-400 drop-shadow-sm"
+                    : "text-gold hover:text-yellow-400 drop-shadow-sm"
                 }`}
               >
                 <span className="relative z-10">{link.name}</span>
@@ -96,8 +96,8 @@ const Header = () => {
               href="/membership"
               className={`group relative px-6 py-2.5 rounded-full font-semibold uppercase tracking-[0.15em] text-sm transition-all duration-500 overflow-hidden ${
                 scrolled
-                  ? "text-white border border-gold/60 hover:border-yellow-400 hover:bg-yellow-400/10 hover:text-yellow-400" // Adjusted hover color and border
-                  : "text-gold border border-gold/60 hover:border-yellow-400 hover:bg-yellow-400/10 hover:text-yellow-400" // Adjusted hover color and border
+                  ? "text-white border border-gold/60 hover:border-yellow-400 hover:bg-yellow-400/10 hover:text-yellow-400"
+                  : "text-gold border border-gold/60 hover:border-yellow-400 hover:bg-yellow-400/10 hover:text-yellow-400"
               }`}
             >
               <span className="relative z-10 flex items-center gap-2">
@@ -110,7 +110,7 @@ const Header = () => {
             {/* Premium Book Now Button */}
             <Link
               href="/booking"
-              className="group relative px-8 py-3 rounded-full font-bold uppercase tracking-[0.2em] text-sm text-charcoal overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-[0_4px_16px_rgba(212,175,55,0.4)]" // Reduced shadow here
+              className="group relative px-8 py-3 rounded-full font-bold uppercase tracking-[0.2em] text-sm text-charcoal overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-[0_4px_16px_rgba(212,175,55,0.4)]"
               style={{
                 background: 'linear-gradient(135deg, #D4AF37 0%, #E6C65C 50%, #D4AF37 100%)',
                 backgroundSize: '200% 100%',

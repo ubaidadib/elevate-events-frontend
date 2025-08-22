@@ -1,4 +1,4 @@
-import Link from "next/link";
+import React from "react"; // Explicitly import React
 import { Crown, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
@@ -10,10 +10,11 @@ const Footer = () => {
         
         {/* Brand */}
         <div>
-          <Link href="/" className="flex items-center gap-2 mb-4">
+          {/* Replaced Link with a tag */}
+          <a href="/" className="flex items-center gap-2 mb-4">
             <Crown className="w-8 h-8 text-yellow-500" />
             <span className="text-xl font-serif font-bold text-yellow-500">ELEVATE</span>
-          </Link>
+          </a>
           <p className="text-sm leading-relaxed text-stone-500">
             The evolution of luxury nightlife.
           </p>
@@ -26,10 +27,11 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-stone-100 mb-5 tracking-wide uppercase text-sm">Quick Links</h3>
           <ul className="space-y-3 text-sm font-light">
-            <li><Link href="/about" className="hover:text-yellow-500 transition-colors">About Us</Link></li>
-            <li><Link href="/events" className="hover:text-yellow-500 transition-colors">Events</Link></li>
-            <li><Link href="/booking" className="hover:text-yellow-500 transition-colors">Reservations</Link></li>
-            <li><Link href="/membership" className="hover:text-yellow-500 transition-colors">VIP Membership</Link></li>
+            {/* Replaced Link with a tag */}
+            <li><a href="/about" className="hover:text-yellow-500 transition-colors">About Us</a></li>
+            <li><a href="/events" className="hover:text-yellow-500 transition-colors">Events</a></li>
+            <li><a href="/booking" className="hover:text-yellow-500 transition-colors">Reservations</a></li>
+            <li><a href="/membership" className="hover:text-yellow-500 transition-colors">VIP Membership</a></li>
           </ul>
         </div>
 
@@ -42,6 +44,10 @@ const Footer = () => {
               <span>Knesebeckstr. 39–49, <br/> 10719 Berlin</span>
             </li>
             <li className="flex items-center gap-3">
+              <Phone className="text-yellow-500 w-4 h-4" />
+              <a href="tel:+49301234567">+49 30 1234567</a>
+            </li>
+            <li className="flex items-center gap-3">
               <Mail className="text-yellow-500 w-4 h-4" />
               <a href="mailto:elevate-events@gmx.de">elevate-events@gmx.de</a>
             </li>
@@ -52,9 +58,10 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-stone-100 mb-5 tracking-wide uppercase text-sm">Follow Us</h3>
           <div className="flex gap-5 text-stone-300">
-            <Link href="https://facebook.com" className="hover:text-yellow-500 transition-colors"><Facebook size={24} /></Link>
-            <Link href="https://instagram.com" className="hover:text-yellow-500 transition-colors"><Instagram size={24} /></Link>
-            <Link href="https://linkedin.com" className="hover:text-yellow-500 transition-colors"><Linkedin size={24} /></Link>
+            {/* Replaced Link with a tag */}
+            <a href="https://facebook.com" className="hover:text-yellow-500 transition-colors"><Facebook size={24} /></a>
+            <a href="https://instagram.com" className="hover:text-yellow-500 transition-colors"><Instagram size={24} /></a>
+            <a href="https://linkedin.com" className="hover:text-yellow-500 transition-colors"><Linkedin size={24} /></a>
           </div>
         </div>
       </div>
