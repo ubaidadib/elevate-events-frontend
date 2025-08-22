@@ -1,4 +1,5 @@
 import React from "react"; // Explicitly import React
+// import Link from "next/link"; // Removed Link import to resolve compilation error
 import { Crown, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
