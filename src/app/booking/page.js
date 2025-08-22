@@ -1,4 +1,3 @@
-
 /*
 ================================================================================
 File: /src/app/booking/page.js
@@ -9,11 +8,29 @@ Description: The Booking Page. This is the code from the earlier immersive.
 // (Code is omitted here for brevity, but you would paste it in this file)
 
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Calendar, Users, CreditCard, CheckCircle, ArrowRight, ArrowLeft } from 'lucide-react';
 
 // Main component for the Booking Page
 export default function App() {
+  // Add CSS animations on client-side only
+  useEffect(() => {
+    // Only run this code in the browser
+    if (typeof document !== 'undefined') {
+      const style = document.createElement('style');
+      style.innerHTML = `
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeIn {
+          animation: fadeIn 0.5s ease-in-out;
+        }
+      `;
+      document.head.appendChild(style);
+    }
+  }, []);
+
   return (
     <div className="bg-[#1C1C1C] min-h-screen font-sans text-[#D9C9A8] p-4 sm:p-8">
       <div className="max-w-5xl mx-auto">
@@ -241,17 +258,3 @@ const Step4 = ({ data }) => (
     <p className="text-sm text-[#B0B0B0] mt-8">We eagerly await your arrival.</p>
   </div>
 );
-
-// Add keyframes for fadeIn animation
-const style = document.createElement('style');
-style.innerHTML = `
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .animate-fadeIn {
-    animation: fadeIn 0.5s ease-in-out;
-  }
-`;
-document.head.appendChild(style);
-
