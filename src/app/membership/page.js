@@ -1,4 +1,3 @@
-
 /*
 ================================================================================
 File: /src/app/membership/page.js
@@ -10,11 +9,29 @@ Description: The Membership/VIP Page. This is the code from the earlier immersiv
 
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { User, Lock, Mail, ArrowRight } from "lucide-react";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('login');
+
+  // Add CSS animations on client-side only
+  useEffect(() => {
+    // Only run this code in the browser
+    if (typeof document !== 'undefined') {
+      const style = document.createElement('style');
+      style.innerHTML = `
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeIn {
+          animation: fadeIn 0.5s ease-in-out;
+        }
+      `;
+      document.head.appendChild(style);
+    }
+  }, []);
 
   return (
     <div className="bg-[#1C1C1C] min-h-screen font-sans text-[#D9C9A8] p-4 sm:p-8 flex items-center justify-center">
@@ -86,16 +103,3 @@ const RegisterForm = () => (
     </button>
   </form>
 );
-
-// Add keyframes for fadeIn animation
-const style = document.createElement('style');
-style.innerHTML = `
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .animate-fadeIn {
-    animation: fadeIn 0.5s ease-in-out;
-  }
-`;
-document.head.appendChild(style);
