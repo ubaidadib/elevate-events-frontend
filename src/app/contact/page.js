@@ -6,7 +6,7 @@ Description: The Contact Page. This is the code from the earlier immersive.
 */
 "use client";
 import React from 'react';
-// import Image from "next/image"; // Removed Next.js Image component import to resolve build error
+import Image from "next/image"; // Re-enabled Next.js Image component import
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function App() {
@@ -57,11 +57,11 @@ export default function App() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/50 border border-[#7A4C2E]/30">
               {/* In a real application, you would embed a Google Maps iframe here */}
-              <img // Reverted to <img> tag to resolve "next/image" resolution error
+              <Image // Using Next.js Image component for optimization
                 src="https://placehold.co/800x500/101010/7A4C2E?text=Location+Map" 
                 alt="Map to Elevate Events" 
-                width={800} // Added width for better layout control
-                height={500} // Added height for better layout control
+                width={800}
+                height={500}
                 className="w-full h-full object-cover"
               />
             </div>

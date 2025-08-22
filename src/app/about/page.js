@@ -6,7 +6,7 @@ Description: Unified About Us page with the same luxury theme as Contact Page
 */
 "use client";
 
-// import Image from "next/image"; // Removed Next.js Image component import to resolve build error
+import Image from "next/image"; // Re-enabled Next.js Image component import
 import { Users, Target, Eye } from "lucide-react";
 
 export default function AboutPage() {
@@ -42,12 +42,13 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="order-1 md:order-2">
-            <img // Reverted to <img> tag to resolve "next/image" resolution error
+            <Image // Using Next.js Image component for optimization
               src="https://placehold.co/600x700/7A4C2E/1C1C1C?text=Our+Venue's+Soul"
               alt="Interior detail of Elevate Events"
-              width={600} // Added width for better layout control
-              height={700} // Added height for better layout control
+              width={600}
+              height={700}
               className="rounded-2xl shadow-2xl shadow-black/50 object-cover"
+              priority // Added priority for above-the-fold image
             />
           </div>
         </div>

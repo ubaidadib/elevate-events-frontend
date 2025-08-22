@@ -1,5 +1,5 @@
-import React from "react"; // Explicitly import React
-// import Link from "next/link"; // Removed Link import to resolve compilation error
+import React from "react";
+import Link from "next/link"; // Re-enabled Link import
 import { Crown, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
@@ -11,11 +11,11 @@ const Footer = () => {
         
         {/* Brand */}
         <div>
-          {/* Replaced Link with a tag */}
-          <a href="/" className="flex items-center gap-2 mb-4">
+          {/* Using Link for internal navigation */}
+          <Link href="/" className="flex items-center gap-2 mb-4">
             <Crown className="w-8 h-8 text-yellow-500" />
             <span className="text-xl font-serif font-bold text-yellow-500">ELEVATE</span>
-          </a>
+          </Link>
           <p className="text-sm leading-relaxed text-stone-500">
             The evolution of luxury nightlife.
           </p>
@@ -28,11 +28,11 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-stone-100 mb-5 tracking-wide uppercase text-sm">Quick Links</h3>
           <ul className="space-y-3 text-sm font-light">
-            {/* Replaced Link with a tag */}
-            <li><a href="/about" className="hover:text-yellow-500 transition-colors">About Us</a></li>
-            <li><a href="/events" className="hover:text-yellow-500 transition-colors">Events</a></li>
-            <li><a href="/booking" className="hover:text-yellow-500 transition-colors">Reservations</a></li>
-            <li><a href="/membership" className="hover:text-yellow-500 transition-colors">VIP Membership</a></li>
+            {/* Using Link for internal navigation */}
+            <li><Link href="/about" className="hover:text-yellow-500 transition-colors">About Us</Link></li>
+            <li><Link href="/events" className="hover:text-yellow-500 transition-colors">Events</Link></li>
+            <li><Link href="/booking" className="hover:text-yellow-500 transition-colors">Reservations</Link></li>
+            <li><Link href="/membership" className="hover:text-yellow-500 transition-colors">VIP Membership</Link></li>
           </ul>
         </div>
 
@@ -59,10 +59,10 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-stone-100 mb-5 tracking-wide uppercase text-sm">Follow Us</h3>
           <div className="flex gap-5 text-stone-300">
-            {/* Replaced Link with a tag */}
-            <a href="https://facebook.com" className="hover:text-yellow-500 transition-colors"><Facebook size={24} /></a>
-            <a href="https://instagram.com" className="hover:text-yellow-500 transition-colors"><Instagram size={24} /></a>
-            <a href="https://linkedin.com" className="hover:text-yellow-500 transition-colors"><Linkedin size={24} /></a>
+            {/* External links can stay as <a> tags */}
+            <a href="https://facebook.com" className="hover:text-yellow-500 transition-colors" target="_blank" rel="noopener noreferrer"><Facebook size={24} /></a>
+            <a href="https://instagram.com" className="hover:text-yellow-500 transition-colors" target="_blank" rel="noopener noreferrer"><Instagram size={24} /></a>
+            <a href="https://linkedin.com" className="hover:text-yellow-500 transition-colors" target="_blank" rel="noopener noreferrer"><Linkedin size={24} /></a>
           </div>
         </div>
       </div>
