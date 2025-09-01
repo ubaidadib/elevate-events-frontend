@@ -1,0 +1,37 @@
+{
+  "header": {
+    "title": "Von <1>Tribe</1> zu <3>Elevate Events</3>",
+    "description": "Unsere Reise begann als Tribe – Music & Smoking Lounge, wo wir die Luxusgastronomie neu definierten. Heute, als Elevate Events GmbH, haben wir uns zu einem umfassenden Anbieter von luxuriösen Erlebnissen entwickelt und setzen neue Maßstäbe für Premium-Unterhaltung und exklusive Veranstaltungen."
+  },
+  "story": {
+    "title": "Eine Geschichte der Exzellenz",
+    "paragraph1": "Was als intimer Musik- und Smoking-Lounge begann, hat sich zu einem erstklassigen Ziel für Luxus-Events und exklusive Erlebnisse entwickelt. Unser Engagement für Exzellenz und Liebe zum Detail ist während unserer Entwicklung stets konstant geblieben.",
+    "paragraph2": "Heute steht die Elevate Events GmbH für den Gipfel der Luxushotellerie und bietet kuratierte Erlebnisse, die Erwartungen übertreffen und unvergessliche Erinnerungen für unsere anspruchsvolle Kundschaft schaffen.",
+    "timeline": {
+      "2018": "Gegründet als Tribe",
+      "2024": "Umbenannt zu Elevate Events"
+    }
+  },
+  "features": {
+    "premium": {
+      "title": "Höchste Qualität",
+      "description": "Kompromisslose Standards in jedem Detail unserer Dienstleistungen und Locations."
+    },
+    "exclusive": {
+      "title": "Exklusiver Zugang",
+      "description": "VIP-Mitgliedsprogramme mit besonderen Vorteilen und Prioritätsbuchungen."
+    },
+    "curated": {
+      "title": "Kuratiere Events",
+      "description": "Handverlesene Erlebnisse, entworfen für die anspruchsvollsten Gäste."
+    },
+    "locations": {
+      "title": "Beste Lagen",
+      "description": "Strategisch gelegene Locations im Herzen luxuriöser Stadtviertel."
+    }
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "description": "Die weltweit renommierteste Luxus-Hospitality-Marke zu werden, die außergewöhnliche Erlebnisse schafft, Erwartungen übertrifft und neu definiert, was es bedeutet, die kostbarsten Momente des Lebens in absoluter Eleganz und Raffinesse zu feiern."
+  }
+}

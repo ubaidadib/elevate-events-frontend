@@ -1,0 +1,19 @@
+{
+  "badge": "Premium Luxury Experience",
+  "headline": {
+    "line1": "Elevate",
+    "line2": "Events",
+    "line3": "GmbH"
+  },
+  "subheading": "Experience the pinnacle of luxury hospitality. From exclusive lounges to VIP events, we create unforgettable moments in sophisticated settings.",
+  "cta": {
+    "reserve": "Reserve Your Experience",
+    "membership": "Explore Membership"
+  },
+  "stats": {
+    "events": { "value": "500+", "label": "Premium Events" },
+    "lounges": { "value": "50+", "label": "Luxury Lounges" },
+    "guests": { "value": "10K+", "label": "Satisfied Guests" }
+  },
+  "scroll": "Scroll to About section"
+}

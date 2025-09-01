@@ -1,0 +1,81 @@
+{
+  "header": {
+    "title": "Reserve Your <1>Experience</1>",
+    "description": "Book your perfect luxury experience 24/7 in just a few simple steps."
+  },
+  "steps": {
+    "1": { "title": "Date & Time", "description": "Select your preferred date and time" },
+    "2": { "title": "Lounge Selection", "description": "Choose your perfect space" },
+    "3": { "title": "Guest Details", "description": "Provide your information" },
+    "4": { "title": "Payment", "description": "Complete your reservation" }
+  },
+  "step1": {
+    "title": "Select Date & Time",
+    "date_label": "Preferred Date",
+    "date_placeholder": "Select a date",
+    "time_label": "Preferred Time (24/7)",
+    "time_placeholder": "Select time",
+    "no_slots": "No more times left today. Please choose a later date.",
+    "guests_label": "Number of Guests",
+    "guest": "Guest",
+    "guests": "Guests",
+    "duration_label": "Duration (Hours)",
+    "hour": "Hour",
+    "hours": "Hours"
+  },
+  "step2": {
+    "title": "Choose Your Lounge",
+    "per_hour": "per hour",
+    "up_to": "Up to {{count}} guests"
+  },
+  "step3": {
+    "title": "Guest Information",
+    "first_name": "First Name *",
+    "last_name": "Last Name *",
+    "email": "Email Address *",
+    "phone": "Phone Number *",
+    "special": "Special Requests (Optional)",
+    "special_placeholder": "Any special requests or dietary requirements..."
+  },
+  "step4": {
+    "title": "Booking Summary & Payment",
+    "reservation": "Reservation Details",
+    "date": "Date:",
+    "start_time": "Start Time:",
+    "ends": "Ends Around:",
+    "ends_next": "Ends (next day):",
+    "lounge": "Lounge:",
+    "guests": "Guests:",
+    "duration": "Duration:",
+    "total": "Total:",
+    "payment": "Payment Method",
+    "methods": {
+      "credit": "Credit Card",
+      "paypal": "PayPal",
+      "klarna": "Klarna"
+    }
+  },
+  "confirmation": {
+    "title": "Booking Confirmed",
+    "thanks": "Thank you! Your reservation reference is <1>{{ref}}</1>.",
+    "back": "Back to Events",
+    "done": "Done"
+  },
+  "buttons": {
+    "previous": "Previous",
+    "next": "Next Step",
+    "complete": "Complete Booking",
+    "processing": "Processing..."
+  },
+  "errors": {
+    "date": "Please choose a date.",
+    "time": "Please choose a time.",
+    "lounge": "Please select a lounge.",
+    "first_name": "First name is required.",
+    "last_name": "Last name is required.",
+    "email": "Enter a valid email address.",
+    "phone": "Phone number is required.",
+    "payment": "Choose a payment method.",
+    "submit": "Something went wrong. Please try again."
+  }
+}

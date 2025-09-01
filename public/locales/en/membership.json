@@ -1,0 +1,35 @@
+{
+  "section": {
+    "title": "Exclusive <span class='text-amber-400'>Membership</span>",
+    "subtitle": "Join our exclusive community and unlock a world of luxury privileges, priority access, and personalized experiences tailored just for you.",
+    "loading": "Loading membership tiers...",
+    "error": "Failed to load membership tiers. Please try again later.",
+    "retry": "Try Again"
+  },
+  "billing": {
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "save": "Save up to €{{amount}}",
+    "savePerYear": "Save €{{amount}} per year"
+  },
+  "tiers": {
+    "mostPopular": "Most Popular",
+    "discount": "{{percent}}% Discount on All Bookings",
+    "drinks": "{{count}} complimentary drinks per visit",
+    "priority": "Priority Booking Access",
+    "privateLounge": "Private Lounge Access",
+    "transport": "Transportation Service",
+    "choose": "Choose {{tier}}"
+  },
+  "benefits": {
+    "priority": { "title": "Priority Booking", "desc": "Get first access to exclusive events and premium time slots" },
+    "perks": { "title": "Exclusive Perks", "desc": "Enjoy complimentary services and special member-only benefits" },
+    "vip": { "title": "VIP Treatment", "desc": "Receive personalized service from our dedicated concierge team" },
+    "events": { "title": "Member Events", "desc": "Access to exclusive member-only events and experiences" }
+  },
+  "cta": {
+    "title": "Ready to Elevate Your Experience?",
+    "subtitle": "Join thousands of discerning members who have discovered the ultimate in luxury hospitality. Your exclusive journey begins with a single click.",
+    "start": "Start Your Membership Journey"
+  }
+}

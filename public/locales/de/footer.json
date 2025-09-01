@@ -1,0 +1,37 @@
+{
+  "logo": {
+    "company": "Elevate Events",
+    "suffix": "GmbH"
+  },
+  "description": "Luxushotellerie neu definiert – durch exklusive Erlebnisse, Premium-Locations und unvergleichlichen Service.",
+  "sections": {
+    "company": "Unternehmen",
+    "services": "Dienstleistungen",
+    "support": "Support",
+    "follow": "Folgen Sie uns"
+  },
+  "links": {
+    "about_us": "Über uns",
+    "our_story": "Unsere Geschichte",
+    "careers": "Karriere",
+    "press": "Presse",
+    "event_booking": "Event buchen",
+    "membership": "Mitgliedschaft",
+    "private_events": "Private Veranstaltungen",
+    "corporate_services": "Firmenservices",
+    "contact_us": "Kontakt",
+    "faq": "FAQ",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutz",
+    "cookie": "Cookie-Richtlinie"
+  },
+  "newsletter": {
+    "title": "Bleiben Sie informiert",
+    "description": "Abonnieren Sie unseren exklusiven Newsletter für frühzeitigen Zugang zu Events, Sonderangeboten und Luxus-Lifestyle-Insights.",
+    "placeholder": "E-Mail eingeben",
+    "button": "Abonnieren"
+  },
+  "bottom": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

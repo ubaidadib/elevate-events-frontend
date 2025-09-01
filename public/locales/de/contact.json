@@ -1,0 +1,42 @@
+{
+  "section": {
+    "title": "Nehmen Sie <span class='text-primary'>Kontakt</span> auf",
+    "subtitle": "Bereit für Ihr exklusives Erlebnis? Unser engagiertes Concierge-Team unterstützt Sie bei Reservierungen, Anfragen und unvergesslichen Momenten."
+  },
+  "info": {
+    "title": "Kontaktinformationen",
+    "subtitle": "Ob intime Feier oder großes Event – unser Team verwirklicht Ihre Vision.",
+    "location": "Standort",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "hours": "Öffnungszeiten",
+    "mapTitle": "Interaktive Karte",
+    "mapSubtitle": "Premium-Standort im Berliner Luxusviertel"
+  },
+  "form": {
+    "title": "Schreiben Sie uns",
+    "subtitle": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden.",
+    "name": "Vollständiger Name *",
+    "email": "E-Mail-Adresse *",
+    "phone": "Telefonnummer",
+    "subject": "Betreff *",
+    "subjectOptions": {
+      "general": "Allgemeine Anfrage",
+      "booking": "Eventbuchung",
+      "membership": "Mitgliedschaft",
+      "private": "Private Veranstaltungen",
+      "corporate": "Firmenevents",
+      "feedback": "Feedback & Vorschläge"
+    },
+    "message": "Nachricht *",
+    "messagePlaceholder": "Erzählen Sie uns von Ihrer Anfrage oder Ihren Eventplänen...",
+    "submit": "Nachricht senden",
+    "alert": "Vielen Dank für Ihre Nachricht! Wir melden uns bald bei Ihnen."
+  },
+  "quick": {
+    "title": "Brauchen Sie sofortige Hilfe?",
+    "subtitle": "Für dringende Anfragen oder kurzfristige Reservierungen steht Ihnen unser VIP-Concierge-Team rund um die Uhr zur Verfügung.",
+    "call": "VIP-Concierge anrufen",
+    "email": "VIP-Team per E-Mail"
+  }
+}

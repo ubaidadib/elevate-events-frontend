@@ -1,0 +1,37 @@
+{
+  "logo": {
+    "company": "Elevate Events",
+    "suffix": "GmbH"
+  },
+  "description": "Redefining luxury hospitality through exclusive experiences, premium venues, and unparalleled service excellence.",
+  "sections": {
+    "company": "Company",
+    "services": "Services",
+    "support": "Support",
+    "follow": "Follow Us"
+  },
+  "links": {
+    "about_us": "About Us",
+    "our_story": "Our Story",
+    "careers": "Careers",
+    "press": "Press",
+    "event_booking": "Event Booking",
+    "membership": "Membership",
+    "private_events": "Private Events",
+    "corporate_services": "Corporate Services",
+    "contact_us": "Contact Us",
+    "faq": "FAQ",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy"
+  },
+  "newsletter": {
+    "title": "Stay in the Loop",
+    "description": "Subscribe to our exclusive newsletter for early access to events, special offers, and luxury lifestyle insights.",
+    "placeholder": "Enter your email",
+    "button": "Subscribe"
+  },
+  "bottom": {
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "logo": {
+    "company": "Elevate Events",
+    "suffix": "GmbH"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "events": "Veranstaltungen",
+    "booking": "Reservierung",
+    "membership": "Mitgliedschaft",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "book_now": "Jetzt buchen"
+  }
+}

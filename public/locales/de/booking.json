@@ -1,0 +1,81 @@
+{
+  "header": {
+    "title": "Reservieren Sie Ihr <1>Erlebnis</1>",
+    "description": "Buchen Sie Ihr perfektes Luxuserlebnis rund um die Uhr in nur wenigen Schritten."
+  },
+  "steps": {
+    "1": { "title": "Datum & Uhrzeit", "description": "Wählen Sie Ihr bevorzugtes Datum und Ihre Uhrzeit" },
+    "2": { "title": "Lounge Auswahl", "description": "Wählen Sie Ihren perfekten Raum" },
+    "3": { "title": "Gästeinformationen", "description": "Geben Sie Ihre Daten ein" },
+    "4": { "title": "Zahlung", "description": "Schließen Sie Ihre Reservierung ab" }
+  },
+  "step1": {
+    "title": "Datum & Uhrzeit wählen",
+    "date_label": "Bevorzugtes Datum",
+    "date_placeholder": "Datum auswählen",
+    "time_label": "Bevorzugte Zeit (24/7)",
+    "time_placeholder": "Zeit auswählen",
+    "no_slots": "Heute sind keine Zeiten mehr verfügbar. Bitte wählen Sie ein späteres Datum.",
+    "guests_label": "Anzahl der Gäste",
+    "guest": "Gast",
+    "guests": "Gäste",
+    "duration_label": "Dauer (Stunden)",
+    "hour": "Stunde",
+    "hours": "Stunden"
+  },
+  "step2": {
+    "title": "Wählen Sie Ihre Lounge",
+    "per_hour": "pro Stunde",
+    "up_to": "Bis zu {{count}} Gäste"
+  },
+  "step3": {
+    "title": "Gästeinformationen",
+    "first_name": "Vorname *",
+    "last_name": "Nachname *",
+    "email": "E-Mail-Adresse *",
+    "phone": "Telefonnummer *",
+    "special": "Besondere Wünsche (optional)",
+    "special_placeholder": "Besondere Wünsche oder Ernährungsanforderungen..."
+  },
+  "step4": {
+    "title": "Buchungsübersicht & Zahlung",
+    "reservation": "Reservierungsdetails",
+    "date": "Datum:",
+    "start_time": "Startzeit:",
+    "ends": "Endet gegen:",
+    "ends_next": "Endet (am nächsten Tag):",
+    "lounge": "Lounge:",
+    "guests": "Gäste:",
+    "duration": "Dauer:",
+    "total": "Gesamt:",
+    "payment": "Zahlungsmethode",
+    "methods": {
+      "credit": "Kreditkarte",
+      "paypal": "PayPal",
+      "klarna": "Klarna"
+    }
+  },
+  "confirmation": {
+    "title": "Buchung bestätigt",
+    "thanks": "Vielen Dank! Ihre Reservierungsnummer lautet <1>{{ref}}</1>.",
+    "back": "Zurück zu Events",
+    "done": "Fertig"
+  },
+  "buttons": {
+    "previous": "Zurück",
+    "next": "Nächster Schritt",
+    "complete": "Buchung abschließen",
+    "processing": "Wird bearbeitet..."
+  },
+  "errors": {
+    "date": "Bitte wählen Sie ein Datum.",
+    "time": "Bitte wählen Sie eine Zeit.",
+    "lounge": "Bitte wählen Sie eine Lounge.",
+    "first_name": "Vorname ist erforderlich.",
+    "last_name": "Nachname ist erforderlich.",
+    "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "phone": "Telefonnummer ist erforderlich.",
+    "payment": "Bitte wählen Sie eine Zahlungsmethode.",
+    "submit": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+  }
+}

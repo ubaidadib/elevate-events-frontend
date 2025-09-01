@@ -1,0 +1,10 @@
+/* Tailwind v4: import once, globally */
+@import "tailwindcss";
+
+/* If you want the animate CSS utilities globally, import here */
+@import "tw-animate-css";
+
+/* === Your theme & global rules ===
+   Option A (recommended): move everything from App.css into this file.
+   Option B (quick): keep your current App.css rules there.
+*/

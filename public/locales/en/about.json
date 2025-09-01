@@ -1,0 +1,37 @@
+{
+  "header": {
+    "title": "From <1>Tribe</1> to <3>Elevate Events</3>",
+    "description": "Our journey began as Tribe – Music & Smoking Lounge, where we pioneered luxury hospitality. Today, as Elevate Events GmbH, we've evolved into a comprehensive luxury experience provider, setting new standards in premium entertainment and exclusive events."
+  },
+  "story": {
+    "title": "A Legacy of Excellence",
+    "paragraph1": "What started as an intimate music and smoking lounge has transformed into a premier destination for luxury events and exclusive experiences. Our commitment to excellence and attention to detail has remained constant throughout our evolution.",
+    "paragraph2": "Today, Elevate Events GmbH represents the pinnacle of luxury hospitality, offering curated experiences that exceed expectations and create lasting memories for our distinguished clientele.",
+    "timeline": {
+      "2018": "Founded as Tribe",
+      "2024": "Rebranded to Elevate Events"
+    }
+  },
+  "features": {
+    "premium": {
+      "title": "Premium Quality",
+      "description": "Uncompromising standards in every detail of our service and venues."
+    },
+    "exclusive": {
+      "title": "Exclusive Access",
+      "description": "VIP membership programs with special perks and priority booking."
+    },
+    "curated": {
+      "title": "Curated Events",
+      "description": "Handpicked experiences designed for the most discerning guests."
+    },
+    "locations": {
+      "title": "Prime Locations",
+      "description": "Strategically located venues in the heart of luxury districts."
+    }
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "To be the world's most prestigious luxury hospitality brand, creating extraordinary experiences that transcend expectations and redefine what it means to celebrate life's most precious moments in absolute elegance and sophistication."
+  }
+}

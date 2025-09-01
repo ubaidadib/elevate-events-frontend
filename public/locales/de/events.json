@@ -1,0 +1,26 @@
+{
+  "section": {
+    "title": "Exklusive <span class='text-amber-400'>Events</span>",
+    "subtitle": "Tauchen Sie ein in sorgfältig kuratierte Erlebnisse, die luxuriöse Unterhaltung definieren",
+    "loading": "Lade Events...",
+    "error": "Events konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "retry": "Erneut versuchen",
+    "empty": "Keine Events in der ausgewählten Kategorie gefunden."
+  },
+  "categories": {
+    "all": "Alle Events",
+    "premium": "Premium",
+    "vip": "VIP",
+    "exclusive": "Exklusiv"
+  },
+  "labels": {
+    "spots": "{{count}} Plätze verfügbar",
+    "reserve": "Jetzt reservieren",
+    "more": "+{{count}} weitere"
+  },
+  "cta": {
+    "title": "Nicht das Richtige gefunden?",
+    "subtitle": "Unser Concierge-Team erstellt maßgeschneiderte Erlebnisse nach Ihren Wünschen.",
+    "contact": "Unseren Concierge kontaktieren"
+  }
+}

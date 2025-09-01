@@ -1,0 +1,35 @@
+{
+  "section": {
+    "title": "Exklusive <span class='text-amber-400'>Mitgliedschaft</span>",
+    "subtitle": "Werden Sie Teil unserer exklusiven Community und genießen Sie Luxusvorteile, bevorzugten Zugang und personalisierte Erlebnisse – maßgeschneidert für Sie.",
+    "loading": "Mitgliedschaften werden geladen...",
+    "error": "Mitgliedschaften konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "retry": "Erneut versuchen"
+  },
+  "billing": {
+    "monthly": "Monatlich",
+    "annual": "Jährlich",
+    "save": "Sparen Sie bis zu €{{amount}}",
+    "savePerYear": "Sparen Sie €{{amount}} pro Jahr"
+  },
+  "tiers": {
+    "mostPopular": "Am Beliebtesten",
+    "discount": "{{percent}}% Rabatt auf alle Buchungen",
+    "drinks": "{{count}} kostenlose Getränke pro Besuch",
+    "priority": "Bevorzugter Buchungszugang",
+    "privateLounge": "Privater Lounge-Zugang",
+    "transport": "Fahrservice",
+    "choose": "{{tier}} auswählen"
+  },
+  "benefits": {
+    "priority": { "title": "Bevorzugte Buchung", "desc": "Erhalten Sie zuerst Zugang zu exklusiven Events und Premium-Zeitslots" },
+    "perks": { "title": "Exklusive Vorteile", "desc": "Genießen Sie kostenlose Services und spezielle Mitglieder-Vorteile" },
+    "vip": { "title": "VIP-Behandlung", "desc": "Erhalten Sie persönlichen Service von unserem Concierge-Team" },
+    "events": { "title": "Mitglieder-Events", "desc": "Zugang zu exklusiven Mitgliederveranstaltungen und Erlebnissen" }
+  },
+  "cta": {
+    "title": "Bereit für Ihr exklusives Erlebnis?",
+    "subtitle": "Schließen Sie sich Tausenden von Mitgliedern an, die das ultimative Luxus-Hospitality-Erlebnis entdeckt haben. Ihre exklusive Reise beginnt mit einem Klick.",
+    "start": "Starten Sie Ihre Mitgliedschaft"
+  }
+}

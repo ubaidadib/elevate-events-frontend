@@ -1,0 +1,19 @@
+{
+  "badge": "Premium-Luxus-Erlebnis",
+  "headline": {
+    "line1": "Elevate",
+    "line2": "Events",
+    "line3": "GmbH"
+  },
+  "subheading": "Erleben Sie den Höhepunkt luxuriöser Gastfreundschaft. Von exklusiven Lounges bis zu VIP-Events schaffen wir unvergessliche Momente in stilvollen Umgebungen.",
+  "cta": {
+    "reserve": "Reservieren Sie Ihr Erlebnis",
+    "membership": "Mitgliedschaft entdecken"
+  },
+  "stats": {
+    "events": { "value": "500+", "label": "Premium-Events" },
+    "lounges": { "value": "50+", "label": "Luxus-Lounges" },
+    "guests": { "value": "10.000+", "label": "Zufriedene Gäste" }
+  },
+  "scroll": "Zum Abschnitt Über uns scrollen"
+}
